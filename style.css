@@ -1,25 +1,18 @@
 body {
   margin: 0;
   overflow: hidden;
-  background: #111;
-  font-family: sans-serif;
+  background: #000;
 }
 canvas {
   display: block;
   margin: auto;
-  background: #333;
+  background: #222;
 }
 #hud {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #0ff;
+  top: 10px;
+  left: 10px;
+  color: #0f0;
+  font-family: sans-serif;
   font-size: 18px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 8px;
-}
-#carSelect {
-  margin-top: 10px;
-  font-size: 16px;
 }
