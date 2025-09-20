@@ -2,21 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Drift Master</title>
+  <title>Drift Racer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <canvas id="gameCanvas" width="1000" height="600"></canvas>
-  <div id="hud">
-    <div>Speed: <span id="speed">0</span></div>
-    <div>Drift Angle: <span id="drift">0</span>°</div>
-    <div>Lap Time: <span id="lap">0.00</span>s</div>
-    <select id="carSelect">
-      <option value="driftster">Driftster</option>
-      <option value="tank">Tank</option>
-      <option value="rocket">Rocket</option>
-    </select>
-  </div>
+  <canvas id="gameCanvas" width="400" height="600"></canvas>
+  <div id="hud">Score: <span id="score">0</span></div>
   <script src="game.js"></script>
 </body>
 </html>
