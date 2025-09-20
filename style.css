@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #111;
+  font-family: sans-serif;
+}
+canvas {
+  display: block;
+  margin: auto;
+  background: #333;
+}
+#hud {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #0ff;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+}
+#carSelect {
+  margin-top: 10px;
+  font-size: 16px;
+}
